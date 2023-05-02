@@ -18,3 +18,13 @@ G:\.NET\Programs\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompi
 G:\.NET\Programs\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 G:\.NET\Programs\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.dll
 G:\.NET\Programs\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\bin\Debug\DataLayer.dll
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\bin\Debug\EntityFramework.dll
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\bin\Debug\DataLayer.pdb
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.pdb

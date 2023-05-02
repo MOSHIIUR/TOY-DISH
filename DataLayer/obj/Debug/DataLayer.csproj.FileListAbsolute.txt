@@ -24,3 +24,19 @@ G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.seedingemployeetable.resources
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.categoriestableinit.resources
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.gamescommentstableinit.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\bin\Debug\DataLayer.dll
+E:\Study\Advance .Net\TOY-DISH\DataLayer\bin\Debug\DataLayer.pdb
+E:\Study\Advance .Net\TOY-DISH\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\Study\Advance .Net\TOY-DISH\DataLayer\bin\Debug\EntityFramework.dll
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.dBRecreated.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.seedingemployeetable.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.categoriestableinit.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.gamescommentstableinit.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.dll
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.pdb
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.Users.resources
+E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.RatingMigration.resources

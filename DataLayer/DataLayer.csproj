@@ -60,11 +60,22 @@
     <Compile Include="Migrations\202305021454076_games&amp;comments-table-init.designer.cs">
       <DependentUpon>202305021454076_games&amp;comments-table-init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305021913530_Users.cs" />
+    <Compile Include="Migrations\202305021913530_Users.designer.cs">
+      <DependentUpon>202305021913530_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305021945522_Rating&amp;&amp;Migration.cs" />
+    <Compile Include="Migrations\202305021945522_Rating&amp;&amp;Migration.designer.cs">
+      <DependentUpon>202305021945522_Rating&amp;&amp;Migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Rating.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\CategoryRepo.cs" />
     <Compile Include="Repo\CommentRepo.cs" />
@@ -72,11 +83,9 @@
     <Compile Include="Repo\EmployeeRepo.cs" />
     <Compile Include="Repo\EmployeeRepoV2.cs" />
     <Compile Include="Repo\GameRepo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="EntityFramework">
-      <Version>6.4.4</Version>
-    </PackageReference>
+    <Compile Include="Repo\RatingRepo.cs" />
+    <Compile Include="Repo\TransactionRepo.cs" />
+    <Compile Include="Repo\UserRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202304281418239_dB-Recreated.resx">
@@ -91,6 +100,17 @@
     <EmbeddedResource Include="Migrations\202305021454076_games&amp;comments-table-init.resx">
       <DependentUpon>202305021454076_games&amp;comments-table-init.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305021913530_Users.resx">
+      <DependentUpon>202305021913530_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305021945522_Rating&amp;&amp;Migration.resx">
+      <DependentUpon>202305021945522_Rating&amp;&amp;Migration.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework">
+      <Version>6.4.4</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
