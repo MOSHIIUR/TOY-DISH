@@ -20,9 +20,9 @@ namespace DataLayer.Repo
             return db.Categories.Find(id);
         }
 
-        public bool Insert(Category emp)
+        public bool Insert(Category data)
         {
-            db.Categories.Add(emp);
+            db.Categories.Add(data);
             return db.SaveChanges() > 0;
         }
 

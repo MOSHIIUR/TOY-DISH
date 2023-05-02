@@ -21,6 +21,16 @@ namespace DataLayer.Manager
             return new CategoryRepo();
         }
         
+        public static iRepo<Game, int, bool> GameData()
+        {
+            return new GameRepo();
+        }
+        
+        public static iRepo<Comment, int, bool> CommentData()
+        {
+            return new CommentRepo();
+        }
+        
     
     
     }

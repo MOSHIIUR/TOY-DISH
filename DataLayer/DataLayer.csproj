@@ -56,14 +56,22 @@
     <Compile Include="Migrations\202305020942054_categories-table-init.designer.cs">
       <DependentUpon>202305020942054_categories-table-init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305021454076_games&amp;comments-table-init.cs" />
+    <Compile Include="Migrations\202305021454076_games&amp;comments-table-init.designer.cs">
+      <DependentUpon>202305021454076_games&amp;comments-table-init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo\CategoryRepo.cs" />
+    <Compile Include="Repo\CommentRepo.cs" />
     <Compile Include="Repo\dBinstance.cs" />
     <Compile Include="Repo\EmployeeRepo.cs" />
     <Compile Include="Repo\EmployeeRepoV2.cs" />
+    <Compile Include="Repo\GameRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="EntityFramework">
@@ -79,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305020942054_categories-table-init.resx">
       <DependentUpon>202305020942054_categories-table-init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305021454076_games&amp;comments-table-init.resx">
+      <DependentUpon>202305021454076_games&amp;comments-table-init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

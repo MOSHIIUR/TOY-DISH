@@ -11,7 +11,7 @@ namespace BusinessLayer.Services
 {
     public class CategoryService
     {
-         public static List<CategoryDTO> Get()
+        public static List<CategoryDTO> Get()
         {
             return convert(DataAccess.CategoryData().Get());
         }

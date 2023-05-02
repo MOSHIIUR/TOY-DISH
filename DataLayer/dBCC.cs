@@ -12,5 +12,7 @@ namespace DataLayer
     {
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Game> Games { get; set; }
     }
 }
