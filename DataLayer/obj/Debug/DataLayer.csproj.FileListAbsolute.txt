@@ -22,3 +22,4 @@ G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.pdb
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.dBRecreated.resources
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.cache
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.seedingemployeetable.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.categoriestableinit.resources

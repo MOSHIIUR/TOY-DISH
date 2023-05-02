@@ -11,5 +11,6 @@ namespace DataLayer
     public class dBCC: DbContext
     {
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

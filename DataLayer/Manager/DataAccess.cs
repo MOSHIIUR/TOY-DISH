@@ -16,5 +16,12 @@ namespace DataLayer.Manager
             return new EmployeeRepo();
         }
         
+        public static iRepo<Category, int, bool> CategoryData()
+        {
+            return new CategoryRepo();
+        }
+        
+    
+    
     }
 }

@@ -38,7 +38,7 @@ namespace BusinessLayer.Services
             var res = DataAccess.EmployeeData().Insert(data); //pass to data layer
 
             //pass result to app layer
-            if (res != null) return true;
+            if (res) return true;
             else return false;
 
             
@@ -51,7 +51,7 @@ namespace BusinessLayer.Services
             var res = DataAccess.EmployeeData().Update(data); //pass to data layer
 
             //pass result to app layer
-            if (res != null) return true;
+            if (res) return true;
             else return false;
         }
         public static bool Delete(int id)

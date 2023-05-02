@@ -18,10 +18,10 @@
         {
             //for (int i = 1; i <= 10; i++)
             //{
-            //    context.Employees.AddOrUpdate(
-            //        new DataLayer.Models.Employee()
-            //        { 
-            //            name = Guid.NewGuid().ToString().Substring(0, 6),
+            //    context.Categories.AddOrUpdate(
+            //        new DataLayer.Models.Category()
+            //        {
+            //            CategoryName = Guid.NewGuid().ToString().Substring(0, 6),
             //        }
 
             //    );
