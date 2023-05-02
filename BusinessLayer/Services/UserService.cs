@@ -38,8 +38,6 @@ namespace BusinessLayer.Services
             //pass result to app layer
             if (res) return true;
             else return false;
-
-
         }
 
         public static bool Update(UserDTO user)
