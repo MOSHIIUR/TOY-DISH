@@ -11,8 +11,8 @@ namespace DataLayer.Interface
     {
         List<TYPE> Get();
         TYPE Get(ID id);
-        RETURN Insert(TYPE emp);
-        RETURN Update(TYPE emp);
+        RETURN Insert(TYPE obj);
+        RETURN Update(TYPE obj);
         bool Delete(ID id);
 
         //The model class the replaced by the `Type`
