@@ -14,5 +14,8 @@ namespace DataLayer
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Game> Games { get; set; }
+        public DbSet<User> Users { get;set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Rating> Ratings { get; set; } 
     }
 }
