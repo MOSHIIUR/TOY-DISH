@@ -28,7 +28,7 @@ namespace DataLayer.Repo
 
             public bool Update(User user)
             {
-                var newUser = db.Categories.Find(user.Id);
+                var newUser = db.Categories.Find(user.UserId);
                 db.Entry(newUser).CurrentValues.SetValues(user);
                 return db.SaveChanges() > 0;
             }

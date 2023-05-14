@@ -68,10 +68,39 @@
     <Compile Include="Migrations\202305021945522_Rating&amp;&amp;Migration.designer.cs">
       <DependentUpon>202305021945522_Rating&amp;&amp;Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305131859368_user-game-comment-relation added.cs" />
+    <Compile Include="Migrations\202305131859368_user-game-comment-relation added.designer.cs">
+      <DependentUpon>202305131859368_user-game-comment-relation added.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140845278_user-can-post-many-games-relation-init.cs" />
+    <Compile Include="Migrations\202305140845278_user-can-post-many-games-relation-init.designer.cs">
+      <DependentUpon>202305140845278_user-can-post-many-games-relation-init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140852081_Game-Has-a-Category-relation-init.cs" />
+    <Compile Include="Migrations\202305140852081_Game-Has-a-Category-relation-init.designer.cs">
+      <DependentUpon>202305140852081_Game-Has-a-Category-relation-init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140858553_Transaction-Connected-with-Game&amp;User-relation-init.cs" />
+    <Compile Include="Migrations\202305140858553_Transaction-Connected-with-Game&amp;User-relation-init.designer.cs">
+      <DependentUpon>202305140858553_Transaction-Connected-with-Game&amp;User-relation-init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140902408_Ratings-Connected-with-Game&amp;User.cs" />
+    <Compile Include="Migrations\202305140902408_Ratings-Connected-with-Game&amp;User.designer.cs">
+      <DependentUpon>202305140902408_Ratings-Connected-with-Game&amp;User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140933588_Follower-User-Relation-init.cs" />
+    <Compile Include="Migrations\202305140933588_Follower-User-Relation-init.designer.cs">
+      <DependentUpon>202305140933588_Follower-User-Relation-init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305140950382_rating-property-modified.cs" />
+    <Compile Include="Migrations\202305140950382_rating-property-modified.designer.cs">
+      <DependentUpon>202305140950382_rating-property-modified.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Follower.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\Transaction.cs" />
@@ -105,6 +134,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305021945522_Rating&amp;&amp;Migration.resx">
       <DependentUpon>202305021945522_Rating&amp;&amp;Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305131859368_user-game-comment-relation added.resx">
+      <DependentUpon>202305131859368_user-game-comment-relation added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140845278_user-can-post-many-games-relation-init.resx">
+      <DependentUpon>202305140845278_user-can-post-many-games-relation-init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140852081_Game-Has-a-Category-relation-init.resx">
+      <DependentUpon>202305140852081_Game-Has-a-Category-relation-init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140858553_Transaction-Connected-with-Game&amp;User-relation-init.resx">
+      <DependentUpon>202305140858553_Transaction-Connected-with-Game&amp;User-relation-init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140902408_Ratings-Connected-with-Game&amp;User.resx">
+      <DependentUpon>202305140902408_Ratings-Connected-with-Game&amp;User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140933588_Follower-User-Relation-init.resx">
+      <DependentUpon>202305140933588_Follower-User-Relation-init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305140950382_rating-property-modified.resx">
+      <DependentUpon>202305140950382_rating-property-modified.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

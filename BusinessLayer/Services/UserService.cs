@@ -24,7 +24,7 @@ namespace BusinessLayer.Services
         public static List<User> Get10()
         {
             var data = (from e in DataAccess.UserData().Get()
-                        where e.Id < 11
+                        where e.UserId < 11
                         select e).ToList();
             return data;
         }
@@ -63,8 +63,8 @@ namespace BusinessLayer.Services
             {
                 data.Add(new UserDTO
                 {
-                    Id = u.Id,
-                    Name = u.Name,
+                    Id = u.UserId,
+                    Name = u.UserName,
                     Email = u.Email,
                     Password = u.Password
                 });
@@ -78,8 +78,8 @@ namespace BusinessLayer.Services
         {
             return new UserDTO()
             {
-                Id = user.Id,
-                Name = user.Name,
+                Id = user.UserId,
+                Name = user.UserName,
                 Email = user.Email,
                 Password = user.Password
             };
@@ -90,8 +90,8 @@ namespace BusinessLayer.Services
         {
             return new User()
             {
-                Id = user.Id,
-                Name = user.Name,
+                UserId = user.Id,
+                UserName = user.Name,
                 Email = user.Email,
                 Password = user.Password
             };

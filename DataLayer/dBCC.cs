@@ -17,5 +17,6 @@ namespace DataLayer
         public DbSet<User> Users { get;set; }
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Rating> Ratings { get; set; } 
+        public DbSet<Follower> Followers { get; set; } 
     }
 }

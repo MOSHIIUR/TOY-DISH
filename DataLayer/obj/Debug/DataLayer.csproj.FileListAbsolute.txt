@@ -40,3 +40,12 @@ E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.dll
 E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.pdb
 E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.Users.resources
 E:\Study\Advance .Net\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.RatingMigration.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.Users.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.RatingMigration.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.usergamecommentrelationadded.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.usercanpostmanygamesrelationinit.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.GameHasaCategoryrelationinit.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.TransactionConnectedwithGameUserrelationinit.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.RatingsConnectedwithGameUser.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.FollowerUserRelationinit.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.ratingpropertymodified.resources

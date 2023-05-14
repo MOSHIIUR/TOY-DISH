@@ -16,23 +16,26 @@
 
         protected override void Seed(DataLayer.dBCC context)
         {
-            //seeding for comment table
-            //for (int i = 1; i <= 10; i++)
+
+            //Random random = new Random();
+
+            //seeding for User table
+            //for (int i = 1; i <= 11; i++)
             //{
-            //    context.Comments.AddOrUpdate(
-            //        new DataLayer.Models.Comment()
+            //    context.Users.AddOrUpdate(
+            //        new DataLayer.Models.User()
             //        {
-            //            CommentText = Guid.NewGuid().ToString().Substring(0, 30),
-            //            CommentAt = DateTime.Now,
+            //           UserName = Guid.NewGuid().ToString().Substring(1, 10),
+            //           Email = Guid.NewGuid().ToString().Substring(1, 6),
+            //           Password = Guid.NewGuid().ToString().Substring(1, 8),
+            //           UserType = "General"
             //        }
 
             //    );
 
             //}
 
-            //games seeding
-            //Random random = new Random();
-            //for (int i = 0; i < 100; i++)
+            //for (int i = 0; i < 15; i++)
             //{
             //    context.Games.AddOrUpdate(
             //        new DataLayer.Models.Game()
@@ -43,9 +46,90 @@
             //            GameDownloadLink = Guid.NewGuid().ToString().Substring(1, 5),
             //            GamePrice = random.Next(100, 1000),
             //            PostAt = DateTime.Now,
+            //            PostedBy = random.Next(1, 11),
+
 
             //        });
             //}
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    context.Comments.AddOrUpdate(
+            //        new DataLayer.Models.Comment()
+            //        {
+            //            CommentText = Guid.NewGuid().ToString().Substring(0, 30),
+            //            CommentAt = DateTime.Now,
+            //            CommentedBy = random.Next(1, 11),
+            //            GameId = random.Next(103, 130),
+            //        }
+
+            //    );
+
+            //}
+
+            //seeding for Category table
+            //for (int i = 1; i <= 10; i++)
+            //    {
+            //        context.Categories.AddOrUpdate(
+            //            new DataLayer.Models.Category()
+            //            {
+            //                CategoryName = Guid.NewGuid().ToString().Substring(1, 5),
+            //            }
+
+            //        );
+
+            //    }
+
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    context.Ratings.AddOrUpdate(
+            //        new DataLayer.Models.Rating()
+            //        {
+
+            //            RatedBy = random.Next(1, 12),
+            //            GameId = random.Next(103, 130),
+            //            Value = random.Next(1, 10),
+            //        }
+
+            //    );
+
+            //}
+
+
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    context.Transactions.AddOrUpdate(
+            //        new DataLayer.Models.Transaction()
+            //        {
+
+            //            BouhgtBy = random.Next(1, 12),
+            //            GameId = random.Next(103, 130),
+            //            Price = random.Next(1, 1000),
+            //            Time = DateTime.Now.AddDays(random.Next(1, 10)),
+            //        }
+
+            //    );
+
+            //}
+
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    context.Followers.AddOrUpdate(
+            //        new DataLayer.Models.Follower()
+            //        {
+
+            //            FollowerUserId = random.Next(1, 12),
+            //            FollowedUserName = Guid.NewGuid().ToString().Substring(1, 10),
+            //            DateFollowed = DateTime.Now.AddDays(random.Next(1, 10)),
+            //        }
+
+            //    );
+
+            //}
+
+
+
+
         }
     }
 }
