@@ -6,9 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
+using TOY_DISH.Auth;
 
 namespace TOY_DISH.Controllers
 {
+    [EnableCors("*","*","*")]
     public class GameController : ApiController
     {
         [HttpGet]
@@ -111,6 +114,22 @@ namespace TOY_DISH.Controllers
             {
 
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message, Data = id });
+            }
+        }
+
+        //[Logged]
+        [HttpGet]
+        [Route("api/games/{id}/comments")]
+        public HttpResponseMessage PostComments(int id)
+        {
+            try
+            {
+                var data = GameService.GetwithComments(id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
     }

@@ -55,7 +55,7 @@ namespace BusinessLayer.Services
             return DataAccess.UserData().Delete(id);
         }
 
-        //take list of Category return CategoryDTO
+        //take list of model return DTO
         static List<UserDTO> convert(List<User> user)
         {
             var data = new List<UserDTO>();
@@ -66,14 +66,15 @@ namespace BusinessLayer.Services
                     Id = u.UserId,
                     Name = u.UserName,
                     Email = u.Email,
-                    Password = u.Password
+                    Password = u.Password,
+                    UserType = u.UserType
                 });
             }
 
             return data;
         }
 
-        //take a category and retun it's dto
+        //take a Model and retun it's dto
         static UserDTO convert(User user)
         {
             return new UserDTO()
@@ -81,19 +82,20 @@ namespace BusinessLayer.Services
                 Id = user.UserId,
                 Name = user.UserName,
                 Email = user.Email,
-                Password = user.Password
+                Password = user.Password,
+                UserType = user.UserType
             };
         }
 
-        //take a CategoryDTO and retun just the Category
+        //take a DTO and retun just the Model
         static User convert(UserDTO user)
         {
             return new User()
             {
-                UserId = user.Id,
                 UserName = user.Name,
                 Email = user.Email,
-                Password = user.Password
+                Password = user.Password,
+                UserType = user.UserType
             };
         }
     }

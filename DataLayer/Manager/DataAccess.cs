@@ -36,6 +36,10 @@ namespace DataLayer.Manager
             return new UserRepo();
         }
 
+        public static IAuth<bool> AuthData()
+        {
+            return new UserRepo();
+        }
         public static iRepo<Transaction, int, bool> TransactionData()
         {
             return new TransactionRepo();
@@ -45,5 +49,11 @@ namespace DataLayer.Manager
         {
             return new RatingRepo();
         }
+    
+        public static iRepo<Token, string, Token> TokenData()
+        {
+            return new TokenRepo();
+        }
+    
     }
 }

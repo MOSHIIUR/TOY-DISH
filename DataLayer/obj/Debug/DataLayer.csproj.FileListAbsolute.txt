@@ -49,3 +49,4 @@ G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.TransactionCo
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.RatingsConnectedwithGameUser.resources
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.FollowerUserRelationinit.resources
 G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.ratingpropertymodified.resources
+G:\.NET\Programs\TOY-DISH\DataLayer\obj\Debug\DataLayer.Migrations.TokendB.resources

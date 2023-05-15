@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dBCC.cs" />
+    <Compile Include="Interface\iAuth.cs" />
     <Compile Include="Interface\iRepo.cs" />
     <Compile Include="Manager\DataAccess.cs" />
     <Compile Include="Migrations\202304281418239_dB-Recreated.cs" />
@@ -96,6 +97,10 @@
     <Compile Include="Migrations\202305140950382_rating-property-modified.designer.cs">
       <DependentUpon>202305140950382_rating-property-modified.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305141529461_Token-dB.cs" />
+    <Compile Include="Migrations\202305141529461_Token-dB.designer.cs">
+      <DependentUpon>202305141529461_Token-dB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -103,6 +108,7 @@
     <Compile Include="Models\Follower.cs" />
     <Compile Include="Models\Game.cs" />
     <Compile Include="Models\Rating.cs" />
+    <Compile Include="Models\Token.cs" />
     <Compile Include="Models\Transaction.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,6 +119,7 @@
     <Compile Include="Repo\EmployeeRepoV2.cs" />
     <Compile Include="Repo\GameRepo.cs" />
     <Compile Include="Repo\RatingRepo.cs" />
+    <Compile Include="Repo\TokenRepo.cs" />
     <Compile Include="Repo\TransactionRepo.cs" />
     <Compile Include="Repo\UserRepo.cs" />
   </ItemGroup>
@@ -155,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305140950382_rating-property-modified.resx">
       <DependentUpon>202305140950382_rating-property-modified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305141529461_Token-dB.resx">
+      <DependentUpon>202305141529461_Token-dB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

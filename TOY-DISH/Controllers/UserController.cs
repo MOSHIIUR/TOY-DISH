@@ -6,11 +6,16 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
+using TOY_DISH.Auth;
 
 namespace TOY_DISH.Controllers
 {
+    [EnableCors("*", "*", "*")]
+
     public class UserController : ApiController
     {
+       
         [HttpGet]
         [Route("api/users")]
         public HttpResponseMessage Get()
