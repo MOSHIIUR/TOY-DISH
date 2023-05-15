@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\BusinessLayer.csproj": {}
+  },
+  "projects": {
+    "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\aksow\\.nuget\\packages\\",
+        "outputPath": "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\aksow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\DataLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\aksow\\.nuget\\packages\\",
+        "outputPath": "G:\\.NET\\Programs\\TOY-DISH\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\aksow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

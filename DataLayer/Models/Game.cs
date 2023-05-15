@@ -39,11 +39,11 @@ namespace DataLayer.Models
         public int? CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
-        public virtual ICollection<Comment> Games { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
 
         public Game()
         {
-            Games = new List<Comment>();
+            Comments = new List<Comment>();
         }
     }
 }

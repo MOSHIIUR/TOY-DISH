@@ -148,3 +148,7 @@ E:\Study\Advance .Net\TOY-DISH\TOY-DISH\obj\Debug\TOY-DISH.csproj.CoreCompileInp
 E:\Study\Advance .Net\TOY-DISH\TOY-DISH\obj\Debug\TOY-DISH.csproj.CopyComplete
 E:\Study\Advance .Net\TOY-DISH\TOY-DISH\obj\Debug\TOY-DISH.dll
 E:\Study\Advance .Net\TOY-DISH\TOY-DISH\obj\Debug\TOY-DISH.pdb
+G:\.NET\Programs\TOY-DISH\TOY-DISH\bin\AutoMapper.dll
+G:\.NET\Programs\TOY-DISH\TOY-DISH\bin\System.Web.Cors.dll
+G:\.NET\Programs\TOY-DISH\TOY-DISH\bin\System.Web.Http.Cors.dll
+G:\.NET\Programs\TOY-DISH\TOY-DISH\bin\System.Web.Http.Cors.xml

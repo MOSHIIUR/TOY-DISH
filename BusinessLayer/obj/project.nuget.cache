@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HxMh2NnCmsgpv2tbnthfsBS3FWqpb1noQUwNILnthLQfh3Gnm+uuKUdgs0Zgp7APMBuAdlDYfXG0CIBTD7K6OA==",
+  "success": true,
+  "projectFilePath": "G:\\.NET\\Programs\\TOY-DISH\\BusinessLayer\\BusinessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aksow\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\aksow\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512"
+  ],
+  "logs": []
+}

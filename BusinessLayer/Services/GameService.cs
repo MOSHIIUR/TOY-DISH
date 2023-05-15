@@ -1,4 +1,5 @@
-﻿using BusinessLayer.DTOs;
+﻿using AutoMapper;
+using BusinessLayer.DTOs;
 using DataLayer.Manager;
 using DataLayer.Models;
 using System;
@@ -56,6 +57,21 @@ namespace BusinessLayer.Services
         {
             return DataAccess.GameData().Delete(id);
         }
+
+        public static GameCommentDTO GetwithComments(int id)
+        {
+            var data = DataAccess.GameData().Get(id);
+            var cfg = new MapperConfiguration(c => {
+                c.CreateMap<Game, GameCommentDTO>();
+                c.CreateMap<Comment, CommentDTO>();
+                c.CreateMap<User, UserDTO>();
+            });
+            var mapper = new Mapper(cfg);
+            var mapped = mapper.Map<GameCommentDTO>(data);
+            return mapped;
+
+        }
+
 
         //take list of Game return GameDTO
         static List<GameDTO> convert(List<Game> categories)

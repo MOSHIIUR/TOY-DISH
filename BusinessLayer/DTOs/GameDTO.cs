@@ -29,5 +29,9 @@ namespace BusinessLayer.DTOs
 
         [Required]
         public DateTime PostAt { get; set; }
+
+        [Required]
+        public string PostedBy { get; set; }
+
     }
 }

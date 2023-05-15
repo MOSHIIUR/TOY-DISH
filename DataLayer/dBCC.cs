@@ -18,5 +18,6 @@ namespace DataLayer
         public DbSet<Transaction> Transactions { get; set; }
         public DbSet<Rating> Ratings { get; set; } 
         public DbSet<Follower> Followers { get; set; } 
+        public DbSet<Token> Tokens { get; set; } 
     }
 }

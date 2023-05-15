@@ -8,9 +8,19 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Repo
 {
-    internal class UserRepo : dBinstance, iRepo<User, int, bool>
+    internal class UserRepo : dBinstance, iRepo<User, int, bool>, IAuth<bool>
     {
-            public List<User> Get()
+            public bool Authenticate(string username, string password)
+            {
+                var data = db.Users.FirstOrDefault(u => u.UserName.Equals(username) &&
+                u.Password.Equals(password));
+
+            var TokenData = db.Tokens.FirstOrDefault(u => u.UserId.Equals(username));
+                if (data != null && TokenData == null) return true;
+
+                else return false;
+            }
+        public List<User> Get()
             {
                 return db.Users.ToList();
             }

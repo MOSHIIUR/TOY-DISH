@@ -28,3 +28,5 @@ E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.Core
 E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.dll
 E:\Study\Advance .Net\TOY-DISH\BusinessLayer\obj\Debug\BusinessLayer.pdb
+G:\.NET\Programs\TOY-DISH\BusinessLayer\bin\Debug\AutoMapper.dll
+G:\.NET\Programs\TOY-DISH\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
